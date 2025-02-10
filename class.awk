@@ -1,4 +1,3 @@
-
 #!/usr/bin/awk -F, -f  # -F, ensures AWK treats commas as field separators
 
 BEGIN {
