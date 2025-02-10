@@ -1,6 +1,7 @@
 #!/usr/bin/awk -F, -f
 
 BEGIN {
+    FS = ","  # Set field separator for CSV
     print "Survival Rates by Passenger Class\n"
     # Initialize arrays to store counts
     for (i = 1; i <= 3; i++) {
@@ -12,6 +13,7 @@ BEGIN {
 NR > 1 {  # Skip header row
     pclass = $3  # Passenger Class is in column 3
     survived = $2  # Survival status is in column 2
+    sub(/\r$/, "", survived)  # Remove carriage return if present
     
     # Count totals and survivors for each class
     total_class[pclass]++
