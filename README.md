@@ -1,9 +1,7 @@
 # HW04: Data Wrangling
 
-[![GitHub Action Status](https://github.com/USERNAME/REPO/workflows/unit-tests/badge.svg)](https://github.com/USERNAME/REPO/actions)
-[![codecov](https://codecov.io/gh/USERNAME/REPO/branch/main/graph/badge.svg)](https://codecov.io/gh/USERNAME/REPO)
+[![GitHub Action Status](https://github.com/CSC510-Group13/hw01/workflows/unit-tests/badge.svg)](https://github.com/CSC510-Group13/hw01/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/YOUR_DOI.svg)](https://zenodo.org/badge/latestdoi/YOUR_DOI)
 
 Data wrangling homework for CSC510 Software Engineering.
 
