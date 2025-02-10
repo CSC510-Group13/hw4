@@ -32,6 +32,7 @@ sh task1.sh
 sh task2.sh
 
 # Tasks 3-6: Titanic analysis
+awk -f 5.awk titanic.csv
 awk -f class.awk titanic.csv
 awk -f age.awk titanic.csv
 awk -f live.awk titanic.csv
